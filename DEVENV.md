@@ -9,6 +9,7 @@ Anleitung zum Einrichten einer Entwicklungsumgebung (DEVENV) für die Programmie
   - [Inhaltsangabe](#inhaltsangabe)
   - [Hinweise](#hinweise)
     - [Keyboard Shortcuts](#keyboard-shortcuts)
+    - [Systemressourcen limitieren](#systemressourcen-limitieren)
   - [Vorbereitung](#vorbereitung)
     - [Windows Updates](#windows-updates)
     - [Virtualisierung](#virtualisierung)
@@ -33,6 +34,18 @@ Die folgenden Shortcuts von Windows sollten bekannt sein:
 - Windows Screenshot Tool: `Windows + Shift + S`
 
 Die Keyboard Shortcuts von Visual Studio Code können [hier](https://cheatsheetmaker.com/vs-code-cheat-sheet) und [hier](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf) gefunden werden.
+
+### Systemressourcen limitieren
+
+Falls ihr Docker Desktop dauerhaft an habt, ist es sinnvoll die Systemresourcen welche wsl benutzen kann zu limitieren, sonst verbraucht der vmmem-Prozess sehr schnell viel RAM. Das limitieren kann über die Konfigurationsdatei `%userprofile%/.wslconfig` eingestellt werden. Bearbeiten kann man diese einfach mit `code %userprofile%/.wslconfig`.
+
+_Beispiel (minimal):_
+
+```txt
+[wsl2]
+memory=4GB # Limits VM memory in WSL2 to 4GB
+processors=2 # Makes the WSL2 VM use four virtual processors
+```
 
 ## Vorbereitung
 
