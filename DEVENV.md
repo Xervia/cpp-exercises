@@ -115,16 +115,15 @@ EOF'
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
-
-- Bestätige alle benötigten Eingaben mit `y` oder `n`
 - Schließe das PowerShell-Fenster
 
 ### Docker Desktop
 
-- Öffne ein Windows PowerShell Fenster mit administrativen Rechten
+- Öffne ein **neues** Windows PowerShell Fenster mit administrativen Rechten
 - Führe `choco install docker-desktop` aus
-- Bestätige die installation mit `y`
-- Nach der Installation öffne "Docker Desktop"
+- Bestätige die installation mit `a`
+- Starte den Rechner neu
+- Öffne "Docker Desktop"
 - In den Einstellungen stelle folgendes ein
   - General
     - OFF: Start Docker Desktop when you log in
