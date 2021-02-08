@@ -43,7 +43,7 @@ _Beispiel (minimal):_
 
 ```txt
 [wsl2]
-memory=4GB # Limits VM memory in WSL2 to 4GB
+memory=2GB # Limits VM memory in WSL2 to 2GB
 processors=2 # Makes the WSL2 VM use four virtual processors
 ```
 
