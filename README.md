@@ -2,7 +2,9 @@
 
 ## Entwicklungsumgebung
 
-Installation der Entwicklungsumgebung finder ihr [hier](DEVENV.md)
+Installation der Entwicklungsumgebung finder ihr [hier](DEVENV.md).
+
+In `dev` kann frei entwickelt werden.
 
 ## Aufgaben
 
