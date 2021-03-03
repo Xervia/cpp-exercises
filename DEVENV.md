@@ -162,6 +162,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "files.insertFinalNewline": true,
+    "files.trimFinalNewline": true,
     "files.autoSave": "onFocusChange",
     "typescript.suggest.paths": false,
     "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
