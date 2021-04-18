@@ -72,6 +72,66 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "build-6",
+            "type": "shell",
+            "command": "g++ -g main.cpp -o main.out",
+            "options": {
+                "cwd": "${workspaceFolder}/exercise6"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build-7",
+            "type": "shell",
+            "command": "g++ -g main.cpp -o main.out",
+            "options": {
+                "cwd": "${workspaceFolder}/exercise7"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build-8",
+            "type": "shell",
+            "command": "g++ -g main.cpp -o main.out",
+            "options": {
+                "cwd": "${workspaceFolder}/exercise8"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build-9",
+            "type": "shell",
+            "command": "g++ -g main.cpp -o main.out",
+            "options": {
+                "cwd": "${workspaceFolder}/exercise9"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build-10",
+            "type": "shell",
+            "command": "g++ -g main.cpp -o main.out",
+            "options": {
+                "cwd": "${workspaceFolder}/exercise10"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
