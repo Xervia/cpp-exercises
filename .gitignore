@@ -1,4 +1,5 @@
 .devcontainer
+.vscode/settings.json
 *.out
 *.log
 dev/*
