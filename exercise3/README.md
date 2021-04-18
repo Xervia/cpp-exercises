@@ -12,7 +12,7 @@ Erstellen Sie ein Programm, das berechnet, ob eine vom Benutzer eingegebene Jahr
 
 __Beispiel Ausgabe:__
 
-```c
+```txt
 Jahr: 2020
 
 Das Jahr 2020 ist ein Schaltjahr.

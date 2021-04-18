@@ -4,7 +4,7 @@ Geben Sie eine *Pyramide* durch Ausdruck entsprechend vieler Leerzeichen und Bl√
 
 __Beispiel Ausgabe:__
 
-```c
+```txt
 Height: 8
 
        #

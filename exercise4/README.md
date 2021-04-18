@@ -6,7 +6,7 @@ Sortieren Sie ein mit Zufallszahlen (zwischen 1 - 1000) belegtes Array mit einer
 
 __Beispiel Ausgabe:__
 
-```c
+```txt
 Anzahl von Zahlen: 8
 
 Unsortierte Liste: 236, 884, 902, 458, 44, 543, 240, 773

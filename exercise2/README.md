@@ -4,7 +4,7 @@ Erstellen Sie ein Programm, das in einer for-Schleife alle Zahlen ausgibt, die d
 
 __Beispiel Ausgabe:__
 
-```c
+```txt
 Zahl: 7
 Untere Grenze: 10
 Obere Grenze: 30

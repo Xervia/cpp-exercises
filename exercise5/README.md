@@ -6,7 +6,7 @@ Division durch 0 soll abgefangen werden.
 
 __Beispiel Ausgabe:__
 
-```c
+```txt
 Zahl 1: 10
 Operator: +
 Zahl 2: 2.5
