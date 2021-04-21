@@ -1,12 +1,18 @@
 # Aufgabe 10
 
-Schreibe ein Programm, welches eine benutzerdefinierte Anzahl von Zahlen aus der Fibonacci Serie ausgibt. Die Fibonacci Zahlen sollen durch einen rekursiven Funktionsaufruf errechnet werden.
+Sortiere ein mit Zufallszahlen (zwischen 1 - 1000) belegtes Array mit einer vom Benutzer definierten Größe mit dem Selection-Sort Algorithmus aufsteigend.
+
+*Selection-Sort:*
+
+1. suche das kleinste/größte Element des Arrays
+2. vertausche dieses mit dem ersten Element des Arrays
+3. gehe wieder zu Schritt 1, jetzt aber mit dem verkürzten Array.
 
 __Beispiel Ausgabe:__
 
 ```txt
-Anzahl von Zahlen: 10
+Anzahl von Zahlen: 8
 
-Fibonacci Serie:
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34,
+Unsortierte Liste: 236, 884, 902, 458, 44, 543, 240, 773
+Sortierte Liste: 44, 236, 240, 458, 543, 773, 884, 902
 ```

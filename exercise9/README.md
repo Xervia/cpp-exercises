@@ -1,18 +1,24 @@
 # Aufgabe 9
 
-Sortiere ein mit Zufallszahlen (zwischen 1 - 1000) belegtes Array mit einer vom Benutzer definierten Größe mit dem Selection-Sort Algorithmus aufsteigend.
+Programmier das Spiel "Zahlenraten" in einem funktionalen Programmierstil:
 
-*Selection-Sort:*
-
-1. suche das kleinste/größte Element des Arrays
-2. vertausche dieses mit dem ersten Element des Arrays
-3. gehe wieder zu Schritt 1, jetzt aber mit dem verkürzten Array.
+Der Computer generiert eine Zufallszahl zwischen 1 und 100, die der Spieler erraten muss. Es wird bei jedem Durchgang mitgeteilt, ob die eingegebene Zahl zu groß oder zu klein war.
 
 __Beispiel Ausgabe:__
 
 ```txt
-Anzahl von Zahlen: 8
-
-Unsortierte Liste: 236, 884, 902, 458, 44, 543, 240, 773
-Sortierte Liste: 44, 236, 240, 458, 543, 773, 884, 902
+Zahl eingeben: 50
+50 ist zu groß!
+Zahl eingeben: 25
+25 ist zu klein!
+Zahl eingeben: 37
+37 ist zu groß!
+Zahl eingeben: 31
+31 ist zu klein!
+Zahl eingeben: 34
+34 ist zu groß!
+Zahl eingeben: 32
+31 ist zu klein!
+Zahl eingeben: 33
+33 ist richtig!
 ```

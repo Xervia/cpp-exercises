@@ -132,6 +132,18 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "label": "build-11",
+            "type": "shell",
+            "command": "g++ -g main.cpp -o main.out",
+            "options": {
+                "cwd": "${workspaceFolder}/exercise11"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
