@@ -4,7 +4,7 @@
         {
             "label": "build-dev",
             "type": "shell",
-            "command": "g++ -g main.cpp -o main.out",
+            "command": "g++ -g *.cpp -o main.out",
             "options": {
                 "cwd": "${workspaceFolder}/dev"
             },
